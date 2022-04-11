@@ -1,0 +1,16 @@
+{
+    "id": "34854eb9-5602-41a9-8d02-7ea9578d8a07",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Kunal",
+        "homepage": ".",
+        "support": "."
+    },
+    "name": "FigmaApp",
+    "nameSlug": "figmaapp",
+    "classFile": "FigmaAppApp.ts",
+    "description": ".",
+    "implements": []
+}

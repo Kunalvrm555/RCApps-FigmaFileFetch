@@ -1,0 +1,468 @@
+{
+    "document": {
+        "id": "0:0",
+        "name": "Document",
+        "type": "DOCUMENT",
+        "children": [
+            {
+                "id": "0:1",
+                "name": "Page 1",
+                "type": "CANVAS",
+                "children": [
+                    {
+                        "id": "15:3",
+                        "name": "Frame 1",
+                        "type": "FRAME",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            {
+                                "id": "2:3",
+                                "name": "Ellipse 1",
+                                "type": "ELLIPSE",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": {
+                                    "x": -600,
+                                    "y": -271,
+                                    "width": 240,
+                                    "height": 224
+                                },
+                                "constraints": {
+                                    "vertical": "CENTER",
+                                    "horizontal": "CENTER"
+                                },
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0.9800000190734863,
+                                            "g": 1,
+                                            "b": 0,
+                                            "a": 1
+                                        }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "INSIDE",
+                                "effects": [],
+                                "arcData": {
+                                    "startingAngle": 0,
+                                    "endingAngle": 6.2831854820251465,
+                                    "innerRadius": 0
+                                }
+                            },
+                            {
+                                "id": "10:2",
+                                "name": "This is a circle",
+                                "type": "TEXT",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": {
+                                    "x": -525,
+                                    "y": -169,
+                                    "width": 90.15216064453125,
+                                    "height": 21.583343505859375
+                                },
+                                "constraints": {
+                                    "vertical": "SCALE",
+                                    "horizontal": "SCALE"
+                                },
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0,
+                                            "g": 0,
+                                            "b": 0,
+                                            "a": 1
+                                        }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "OUTSIDE",
+                                "effects": [],
+                                "characters": "This is a circle",
+                                "style": {
+                                    "fontFamily": "Inter",
+                                    "fontPostScriptName": null,
+                                    "fontWeight": 400,
+                                    "fontSize": 12,
+                                    "textAlignHorizontal": "LEFT",
+                                    "textAlignVertical": "TOP",
+                                    "letterSpacing": 0,
+                                    "lineHeightPx": 14.0625,
+                                    "lineHeightPercent": 100,
+                                    "lineHeightUnit": "INTRINSIC_%"
+                                },
+                                "layoutVersion": 3,
+                                "characterStyleOverrides": [],
+                                "styleOverrideTable": {},
+                                "lineTypes": [
+                                    "NONE"
+                                ],
+                                "lineIndentations": [
+                                    0
+                                ]
+                            }
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -623,
+                            "y": -288,
+                            "width": 286,
+                            "height": 259
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": false,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1,
+                                    "g": 1,
+                                    "b": 1,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1,
+                                    "g": 1,
+                                    "b": 1,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                        },
+                        "effects": []
+                    },
+                    {
+                        "id": "15:10",
+                        "name": "Frame 2",
+                        "type": "FRAME",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            {
+                                "id": "15:8",
+                                "name": "Rectangle 1",
+                                "type": "RECTANGLE",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": {
+                                    "x": -248,
+                                    "y": -213,
+                                    "width": 130,
+                                    "height": 136
+                                },
+                                "constraints": {
+                                    "vertical": "CENTER",
+                                    "horizontal": "CENTER"
+                                },
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0.9833333492279053,
+                                            "g": 0.04916667938232422,
+                                            "b": 0.04916667938232422,
+                                            "a": 1
+                                        }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "INSIDE",
+                                "effects": []
+                            },
+                            {
+                                "id": "15:6",
+                                "name": "This is a square",
+                                "type": "TEXT",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": {
+                                    "x": -227,
+                                    "y": -170,
+                                    "width": 89,
+                                    "height": 15
+                                },
+                                "constraints": {
+                                    "vertical": "TOP",
+                                    "horizontal": "LEFT"
+                                },
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 1,
+                                            "g": 1,
+                                            "b": 1,
+                                            "a": 1
+                                        }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "OUTSIDE",
+                                "effects": [],
+                                "characters": "This is a square",
+                                "style": {
+                                    "fontFamily": "Inter",
+                                    "fontPostScriptName": null,
+                                    "fontWeight": 400,
+                                    "textAutoResize": "WIDTH_AND_HEIGHT",
+                                    "fontSize": 12,
+                                    "textAlignHorizontal": "LEFT",
+                                    "textAlignVertical": "TOP",
+                                    "letterSpacing": 0,
+                                    "lineHeightPx": 14.0625,
+                                    "lineHeightPercent": 100,
+                                    "lineHeightUnit": "INTRINSIC_%"
+                                },
+                                "layoutVersion": 3,
+                                "characterStyleOverrides": [],
+                                "styleOverrideTable": {},
+                                "lineTypes": [
+                                    "NONE"
+                                ],
+                                "lineIndentations": [
+                                    0
+                                ]
+                            }
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -269,
+                            "y": -233,
+                            "width": 172,
+                            "height": 176
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": false,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1,
+                                    "g": 1,
+                                    "b": 1,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1,
+                                    "g": 1,
+                                    "b": 1,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                        },
+                        "effects": []
+                    },
+                    {
+                        "id": "15:7",
+                        "name": "Frame 3",
+                        "type": "FRAME",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            {
+                                "id": "10:3",
+                                "name": "Polygon 1",
+                                "type": "REGULAR_POLYGON",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": {
+                                    "x": -38,
+                                    "y": -245,
+                                    "width": 243,
+                                    "height": 241
+                                },
+                                "constraints": {
+                                    "vertical": "SCALE",
+                                    "horizontal": "SCALE"
+                                },
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0.18502846360206604,
+                                            "g": 0.9916666746139526,
+                                            "b": 0.053715288639068604,
+                                            "a": 1
+                                        }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "INSIDE",
+                                "effects": []
+                            },
+                            {
+                                "id": "10:4",
+                                "name": "This is a triangle",
+                                "type": "TEXT",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": {
+                                    "x": 34,
+                                    "y": -133,
+                                    "width": 99.99557495117188,
+                                    "height": 16.21076202392578
+                                },
+                                "constraints": {
+                                    "vertical": "SCALE",
+                                    "horizontal": "SCALE"
+                                },
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0,
+                                            "g": 0,
+                                            "b": 0,
+                                            "a": 1
+                                        }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "OUTSIDE",
+                                "effects": [],
+                                "characters": "This is a triangle",
+                                "style": {
+                                    "fontFamily": "Inter",
+                                    "fontPostScriptName": null,
+                                    "fontWeight": 400,
+                                    "fontSize": 12,
+                                    "textAlignHorizontal": "LEFT",
+                                    "textAlignVertical": "TOP",
+                                    "letterSpacing": 0,
+                                    "lineHeightPx": 14.0625,
+                                    "lineHeightPercent": 100,
+                                    "lineHeightUnit": "INTRINSIC_%"
+                                },
+                                "layoutVersion": 3,
+                                "characterStyleOverrides": [],
+                                "styleOverrideTable": {},
+                                "lineTypes": [
+                                    "NONE"
+                                ],
+                                "lineIndentations": [
+                                    0
+                                ]
+                            }
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -38,
+                            "y": -245,
+                            "width": 243,
+                            "height": 241
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": false,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1,
+                                    "g": 1,
+                                    "b": 1,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1,
+                                    "g": 1,
+                                    "b": 1,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                        },
+                        "effects": []
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.8980392217636108,
+                    "g": 0.8980392217636108,
+                    "b": 0.8980392217636108,
+                    "a": 1
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [],
+                "prototypeDevice": {
+                    "type": "NONE",
+                    "rotation": "NONE"
+                }
+            }
+        ]
+    },
+    "components": {},
+    "componentSets": {},
+    "schemaVersion": 0,
+    "styles": {},
+    "name": "Design 1",
+    "lastModified": "2022-04-07T11:03:34Z",
+    "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/17d8eaa7-8991-40d6-886b-486bbf80f2b4?Expires=1650844800&Signature=WSzWsps3plzeKaYndDuRIUxNz~aEeq0bm1wU9YSnT5~V4kespskFureJNjDZAoDF96U-8ool1U71amRxt6Qp8Q0Ygk3jPKAg4ZfhpIgRFJuDiHd9LFIFex2~kLAVV8vx3wjVn0RzwuqCAyu39CYi1zqdHurf8dYS5xttzjuxF5Uu4ryvZfsBFy3nfa9o4ng3-vz0cREaDELY5Q-hIkRZzb6GHsPw9V9rURDJbZ1LQ6YKIts8mQuMcE20mtIYE-msSZBHQ6MN16HoypcT1-5ygKlH6qO2MxPSI~Vr5DRNO5HMtSB0Tml0LxL6poijN0bIRAoya2KBZTcHWxAXBNUUng__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+    "version": "1739621264",
+    "role": "owner",
+    "editorType": "figma",
+    "linkAccess": "view"
+}
