@@ -12,8 +12,7 @@ import { IMessage } from '@rocket.chat/apps-engine/definition/messages';
 import { IRoom } from '@rocket.chat/apps-engine/definition/rooms';
 import { ISlashCommand, SlashCommandContext } from '@rocket.chat/apps-engine/definition/slashcommands/index';
 import { IUser } from '@rocket.chat/apps-engine/definition/users';
-const FIGMA_TOKEN = '359404-ba3cbd45-311b-4549-babc-b1347d38a592';
-const fileId = 'FEYljnlYGnWZPkJaim4zxi';
+const FIGMA_TOKEN = 'XXXXXX';//NEVER STORE YOUR API TOKEN IN THE CODE
 import { ImageAttachment } from '../lib/ImageAttach';
 export class FigmaCommand implements ISlashCommand {
 	public command = 'figma';
@@ -21,8 +20,7 @@ export class FigmaCommand implements ISlashCommand {
 	public providesPreview = false;
 	public i18nParamsExample = '';
 	public async executor(context: SlashCommandContext, read: IRead, modify: IModify, http: IHttp, persis: IPersistence): Promise<void> {
-		// const fileId = context.getArguments();
-		const fileId = 'oswJXeOp3Vig69Q2kV3nFc';
+		const fileId = context.getArguments();
 		const Response = await http.get('https://api.figma.com/v1/files/' + fileId, {
 			headers: {
 				'X-Figma-Token': FIGMA_TOKEN,
